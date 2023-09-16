@@ -4,72 +4,72 @@
       "img": "https://i.ibb.co/3zYKfkt/c.png",
       "title": "Introduction to C Programming",
       "description": "Get started with C programming, learn the fundamentals, and write your first C programs.",
-      "price": 9500,
-      "credit_hours": 3
+      "price": 15000,
+      "credit_hours": 1
     },
     {
       "id": "2",
       "img": "https://i.ibb.co/r5ZMYqW/Algorithms.jpg",
       "title": "Introduction to Algorithms",
       "description": "Explore algorithms and data structures, and learn how to solve complex problems efficiently.",
-      "price": 11000,
-      "credit_hours": 4
+      "price": 25000,
+      "credit_hours": 2
     },
     {
       "id": "3",
       "img": "https://i.ibb.co/xgG7qTD/c.png",
       "title": "Introduction to C++ for DSA",
-      "description": "Master C++ programming for Data Structures and Algorithms (DSA) applications.",
-      "price": 9800,
-      "credit_hours": 5
+      "description": "Master C++ for Data Structures and Algorithms (DSA) with hands-on coding and some interview problems.",
+      "price": 10000,
+      "credit_hours": 10
     },
     {
       "id": "4",
       "img": "https://i.ibb.co/sRKKDcF/Data-structure.jpg",
       "title": "Basic Data Structures",
       "description": "Learn the foundational data structures used in computer science and programming.",
-      "price": 10800,
-      "credit_hours": 4
+      "price": 35000,
+      "credit_hours": 5
     },
     {
       "id": "5",
       "img": "https://i.ibb.co/wYxBPZ2/python-opps-2.png",
       "title": "Introduction to OOP Python",
       "description": "Learn object-oriented programming (OOP) with Python and build reusable code.",
-      "price": 10200,
-      "credit_hours": 4
+      "price": 19000,
+      "credit_hours": 5
     },
     {
       "id": "6",
       "img": "https://i.ibb.co/tXjmkTk/software.webp",
       "title": "Software Engineering",
       "description": "Dive into software engineering principles, methodologies, and best practices.",
-      "price": 9700,
-      "credit_hours": 3
+      "price": 23000,
+      "credit_hours": 2
     },
     {
       "id": "7",
       "img": "https://i.ibb.co/q0zPdyW/aws.jpg",
       "title": "AWS, Cloud Computing",
       "description": "Explore Amazon Web Services (AWS) and cloud computing, and build scalable applications.",
-      "price": 10600,
-      "credit_hours": 4
+      "price": 35000,
+      "credit_hours": 5
     },
     {
       "id": "8",
       "img": "https://i.ibb.co/GxzVFqW/mySql.jpg",
       "title": "Database (MySQL)",
-      "description": "Learn MySQL database management, SQL queries, and database design.",
-      "price": 9900,
-      "credit_hours": 4
+      "description": "Learn MySQL database management, SQL queries, and database design.MySQL is a relational database.",
+      "price": 19000,
+      "credit_hours": 5
     },
     {
       "id": "9",
       "img": "https://i.ibb.co/xKTb1Sd/problem-solving.webp",
       "title": "Problem-Solving Part",
       "description": "Enhance your problem-solving skills and tackle complex programming challenges.",
-      "price": 10400,
-      "credit_hours": 5
+      "price": 23000,
+      "credit_hours": 2
     }
   
   ]

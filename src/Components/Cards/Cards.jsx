@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
-const Cards = () => {
+const Cards = ({handleCreditHour}) => {
     const [courses, setCourses] = useState([]);
     console.log(courses);
 
@@ -10,8 +10,8 @@ const Cards = () => {
         .then(data => setCourses(data));
     },[]);
     return (
-        <div className='grid grid-cols-3'>
-            {courses.map(course => <Card course={course} ></Card>)}
+        <div className='grid grid-cols-3 gap-4 py-8'>
+            {courses.map(course => <Card handleCreditHour={handleCreditHour} course={course} ></Card>)}
         </div>
     );
 };
