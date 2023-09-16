@@ -15,18 +15,20 @@ function App() {
   const Remaining = creditHours - creditHour;
 
   const handleCreditHour = (price, credit_hours, title) => {
-    // console.log(title);
-  
+    let addingHour = creditHour + credit_hours;
     if(courseName.includes(title)) {
       return toast('Already added. Cannot add twice.');
     }
     if(Remaining < credit_hours) {
-      return toast('Do not have enough hours remaining.');
+       toast('Do not have enough hours remaining.');
+
+       if(addingHour > 20) {
+        return toast('Credit hours is its maximum level.')
+      }
+      return;
     }
     setTotalPrice(totalPrice + price);
-    if(creditHour > creditHours) {
-      return toast('Credit hours is its maximum level.')
-    }
+    
     setCreditHour(creditHour + credit_hours);
     
     const allCourse = [...courseName, title];
