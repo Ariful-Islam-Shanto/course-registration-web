@@ -23,7 +23,7 @@ function App() {
        toast('Do not have enough hours remaining.');
 
        if(addingHour > 20) {
-        return toast('Credit hours is its maximum level.')
+        return toast("Credit hours cannot exceed it's maximum limit.")
       }
       return;
     }
