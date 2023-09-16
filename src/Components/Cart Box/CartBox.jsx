@@ -5,7 +5,7 @@ const CartBox = ({name, index}) => {
     
     return (
       <div>
-        <h1 className='text-sm mt-4 text-black font-bold'>{childCount} {name}</h1>
+        <h1 className='md:text-xs lg:text-sm mt-4 text-gray-600 font-medium'>{childCount}. {name}</h1>
       </div>
     )
 };

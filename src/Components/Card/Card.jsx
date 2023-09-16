@@ -3,24 +3,24 @@ const Card = ({ course, handleCreditHour }) => {
 
   return (
     <div>
-      <div className="rounded-xl bg-white w-full p-4 shadow-xl space-y-5">
-        <img className="rounded-xl w-full h-[200px]" src={img} alt="" />
+      <div className="rounded-xl bg-white w-full p-4 md:p-2 lg:p-2 xl:p-4 shadow-xl space-y-5 lg:h-[400px] xl:h-full">
+        <img className="rounded-xl w-full md:h-[150px] lg:h-[150px] xl:h-[200px]" src={img} alt="" />
         <div className=" space-y-4">
-          <h2 className="text-lg text-black font-bold">{title}</h2>
-          <p>{description}</p>
+          <h2 className="md:text-sm lg:text-sm xl:text-lg text-black font-bold">{title}</h2>
+          <p className="md:text-xs lg:text-xs xl:text-sm">{description}</p>
           <div className="flex justify-between items-center">
-            <div className="flex gap-2">
+            <div className="flex items-center gap-2 md:text-xs md:xs lg:text-xs xl:text-sm">
               <i class="fa-light fa-dollar-sign"></i>
-              <h3>Price: {price}</h3>
+              <h3 className="md:text-xs lg:text-xs xl:text-sm">Price: {price}</h3>
             </div>
-            <div className="flex gap-2">
+            <div className="flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="md:w-6 lg:w-4 xl:w-6 md:h-6 lg:h-4 xl:h-6 "
               >
                 <path
                   strokeLinecap="round"
@@ -29,15 +29,17 @@ const Card = ({ course, handleCreditHour }) => {
                 />
               </svg>
 
-              <h3>Credit: {credit_hours}hr </h3>
+              <h3 className="md:text-xs lg:text-xs xl:text-sm" >Credit: {credit_hours}hr </h3>
             </div>
           </div>
+          <div>
           <button
             onClick={() => handleCreditHour(price, credit_hours, title)}
             className="w-full btn bg-blue-700 text-white"
           >
             Select
           </button>
+          </div>
         </div>
       </div>
     </div>
